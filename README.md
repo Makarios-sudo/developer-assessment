@@ -82,3 +82,15 @@ Your solution will be evaluated for:
 3. User Experience (Frontend)
 4. DB Migration
 5. Tests
+
+
+INSTRUCTIONS FOR CODE REVIEW AND RUNNING THE APPLICATION
+
+Virtual Environment for the project
+- create a virtualenv using "pip3 virtualenv env"
+- activate the virtualenv using "source env/bin/activate"
+
+ Running the project In Docker Container
+- run "docker-compose up" in the activated virtualenv
+- visit "http://0.0.0.0:8000/graphql" in your broswer
+
